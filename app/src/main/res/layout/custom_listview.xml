@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/blur_3"
+    android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/songTitle"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/favoriteButtonListView"
+            android:layout_toStartOf="@+id/favoriteButtonListView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/favoriteButtonListView"
+            android:src="@drawable/selected_favorite"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

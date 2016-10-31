@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#ffe0e0e0</color>
+    <color name="background">#51bebf</color>
+
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="green">#689F38</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="banana">#FFCC00</color>
+    <color name="black">#000000</color>
+    <color name="above_the_world">#3FB8AF</color>
+    <color name="facebook_logo">#3b5998</color>
+    <color name="twitter_logo">#00aced</color>
+
+    <color name="cyan_50">#e0f7fa</color>
+    <color name="cyan_600">#00ACC1</color>
+    <color name="cyan_a200">#18ffff</color>
+    <color name="cyan_a400">#00E5FF</color>
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_600">#00897B</color>
+    <color name="primaryColor">#00796B</color> //teal700
+    <color name="tean_800">#00695c</color>
+    <color name="teal_a400">#1de9b6</color>
+    <color name="tean_a100">#a7ffeb</color>
+
+</resources>
