@@ -11,6 +11,7 @@ import com.boorime.radio.adapters.CustomPagerAdapter;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+//todo: remove viewpager, use 2 activities - main and about
 public class BaseActivity extends AppCompatActivity {
 
     @Bind(R.id.tabs)
