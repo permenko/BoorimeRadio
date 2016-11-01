@@ -6,7 +6,6 @@ import android.app.Service;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.media.AudioManager;
-import android.os.Handler;
 import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.util.Log;
@@ -14,25 +13,10 @@ import android.util.Log;
 import com.boorime.radio.EventBus.MediaPlayerStateEvent;
 import com.boorime.radio.EventBus.UpdateMetadataEvent;
 import com.boorime.radio.receivers.HeadsetReceiver;
-import com.boorime.radio.utils.Const;
 import com.google.android.exoplayer.ExoPlayer;
 import com.vodyasov.amr.AudiostreamMetadataManager;
-import com.vodyasov.amr.OnNewMetadataListener;
-import com.vodyasov.amr.UserAgent;
 
 import org.greenrobot.eventbus.EventBus;
-
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.List;
-
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
 
 public class StreamService extends Service implements MediaPlayer.MediaPlayerState {
 
@@ -141,7 +125,7 @@ public class StreamService extends Service implements MediaPlayer.MediaPlayerSta
         EventBus.getDefault().postSticky(new UpdateMetadataEvent(metadata));
     }
 
-    private void sendNotification(String title) { // TODO: support big notifications
+    private void sendNotification(String title) {
         Log.d(TAG, "notification sent");
         Notification notification = new Notification(R.mipmap.ic_launcher, null, System.currentTimeMillis());
         Intent intent = new Intent(this, BaseActivity.class);
