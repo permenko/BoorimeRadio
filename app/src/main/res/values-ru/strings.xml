@@ -1,49 +1,14 @@
 <resources>
     <string name="app_name">Boorime Radio</string>
+    <string name="version">Версия %1$s</string>
 
-    <string name="action_settings">Настройки</string>
-    <string name="nowPlaying">Сейчас воспроизводится</string>
-    <string name="trackHistory">История воспроизведения</string>
-    <string name="unknown">неизвестное</string>
-    <string name="share">Поделиться</string>
     <string name="share_via">Поделиться с помощью</string>
     <string name="buffering">Буферизация</string>
-    <string name="openDrawer">открыть</string>
-    <string name="closeDrawer">закрыть</string>
 
-    <string name="text_to_share">Я слушаю %1$s на http://boorime.com/</string>
+    <string name="share_with_title">Я слушаю %1$s на http://boorime.com/</string>
+    <string name="share_without_title">Я слушаю http://boorime.com/</string>
 
     <string name="radio_description">Boorime Radio - первое радио Санкт-Петербурга, где можно услышать психоделический рок 60х, нео-психоделику, мат-рок, стоунер, шугейз, гаражный рок, немного джаза, соула и редкого трип-хопа.</string>
-    <string name="rate_us_button">Оценить приложение</string>
-    <string name="contact_us_button">Связаться с нами</string>
 
-    <string name="save_on_cloud">Сохраните ваш лист избранного в облако</string>
-
-    <array name="fragments_titles">
-        <item>Boorime</item>
-        <item>Избранное</item>
-        <item>О нас</item>
-    </array>
-
-    <string name="forgot_password">Забыли пароль?</string>
-    <string name="alternative_login">Or Log In Using</string>
-    <string name="loginUnSuccessful">Login failed</string>
-
-    <!-- hints -->
-    <string name="username_hint">Имя пользователя</string>
-    <string name="email_hint">Электронная почта</string>
-    <string name="password_hint">Пароль</string>
-    <string name="confirm_password_hint">Повторите пароль</string>
-    <string name="login_hint">Логин</string>
-    <string name="create_account_hint">Создать аккаунт</string>
-
-    <!-- contentDescription -->
-    <string name="username_icon">Иконка пользователя</string>
-    <string name="email_icon">Иконка электронной почты</string>
-    <string name="password_icon">Иконка пароля</string>
-    <string name="facebook_button">Зайти с помоцью facebook кнопка</string>
-    <string name="twitter_button">Зайти с помоцью twitter кнопка</string>
-    <string name="send">ОТПРАВИТЬ</string>
-    <string name="send_email">Отправить электронное письмо..</string>
-
+    <string name="send_email">Отправить email</string>
 </resources>

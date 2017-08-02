@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">@color/teal_600</color>
+    <color name="colorPrimaryDark">@color/tean_800</color>
+    <color name="colorAccent">@color/teal_600</color>
+
     <color name="grey">#ffe0e0e0</color>
     <color name="background">#51bebf</color>
 
@@ -19,7 +23,7 @@
     <color name="teal_100">#B2DFDB</color>
     <color name="teal_400">#26A69A</color>
     <color name="teal_600">#00897B</color>
-    <color name="primaryColor">#00796B</color> //teal700
+    <color name="teal_700">#00796B</color>
     <color name="tean_800">#00695c</color>
     <color name="teal_a400">#1de9b6</color>
     <color name="tean_a100">#a7ffeb</color>

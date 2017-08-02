@@ -1,0 +1,84 @@
+<com.boorime.radio.widget.reveal.RevealLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_circle"
+            android:layout_margin="40dp"
+            android:paddingBottom="80dp"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:background="@android:color/transparent"
+            android:padding="12dp"/>
+
+        <ImageButton
+            android:id="@+id/vkontakte"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_vk"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="56dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginRight="84dp"/>
+
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_facebook"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="56dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"/>
+
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_instagram"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="56dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"/>
+
+
+        <ImageButton
+            android:id="@+id/mail"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_mail"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="56dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginLeft="84dp"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/version"
+            android:gravity="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    </FrameLayout>
+
+</com.boorime.radio.widget.reveal.RevealLayout>
